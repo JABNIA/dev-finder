@@ -1,0 +1,60 @@
+#heading{
+    width: 800px;
+    height: 20px;
+    margin: auto;
+    margin-top:200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading > h4{
+    width: 90px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 36px;
+}
+
+#heading svg {
+    margin-top: 10px;
+}
+
+#heading > h4:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    #heading{
+    width: 600px;
+    height: 20px;
+    margin: auto;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    } 
+
+}
+
+
+@media (max-width: 600px){
+    #heading{
+    width: 360px;
+    height: 20px;
+    margin: auto;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    } 
+
+    #heading > h2 {
+        font-size: 36px
+    };
+    
+    #heading > h4 {
+        line-height: 52px;
+    }
+    #heading svg {
+        margin-top: 17px;
+    }
+    
+}
